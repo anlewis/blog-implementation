@@ -12,6 +12,7 @@ gem 'webpacker'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'devise'
 gem 'devise_token_auth'
 
 group :development, :test do
@@ -19,6 +20,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
   gem 'factory_bot_rails'
+  gem 'pry'
 end
 
 group :development do
