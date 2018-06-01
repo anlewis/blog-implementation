@@ -1,5 +1,8 @@
-<h1>Blogs#index</h1>
-
-<div id="app">
-  {{ message }}
-</div>
+  <div id="app"></div>
+  
+  <all-posts>
+    <div v-for="post in posts">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.content }}</p>
+    </div>
+  </all-posts>

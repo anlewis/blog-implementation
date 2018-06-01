@@ -9,3 +9,5 @@ Within project directory, run:
 `gem install bundler`
 
 `bundle install`
+
+`foreman start`
