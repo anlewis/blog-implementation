@@ -1,8 +1,6 @@
-  <div id="app"></div>
-  
-  <all-posts>
-    <div v-for="post in posts">
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.content }}</p>
-    </div>
-  </all-posts>
+<div id="app"></div>
+
+<div id="all-posts" v-for="post in posts">
+  <h3>{{ post.title }}</h3>
+  <p>{{ post.content }}</p>
+</div>
